@@ -19,3 +19,11 @@ overlay.addEventListener("click", navToggleFunc);
 for(let i = 0; i< navbarLinks.length; i++){
     navbarLinks[i].addEventListener("click", navToggleFunc);
 }
+
+//HEADER ACTIVE ON SCROLL
+
+const header = document.querySelector("[data-header]");
+
+window.addEventListener("scroll", function(){
+    this.window.scrollY >= 10 ? header.classList.add("active") : header.classList.remove("active");
+}) 
