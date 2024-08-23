@@ -1,2 +1,2 @@
 # ridex--codewithsadee
-Responsive web de alquiler de coches. Tutorial de codewithsadee
+Responsive web de alquiler de coches. Proyecto basando en codewithsadee
